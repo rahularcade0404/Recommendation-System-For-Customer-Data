@@ -1,0 +1,23 @@
+{
+  "features": [
+    "MonthNum",
+    "Qty_Lag1",
+    "Qty_Lag2",
+    "Revenue_Lag1",
+    "Orders_Lag1",
+    "Avg_Rate",
+    "Orders",
+    "Num_Customers",
+    "Total_Qty",
+    "PartGroup_enc",
+    "Qty_MA2"
+  ],
+  "target": "Qty",
+  "best_model": "ElasticNet",
+  "best_metrics": {
+    "RMSE": 8884.72691909739,
+    "MAE": 4966.815743981733,
+    "R2": 0.8093733489648876,
+    "MAPE_%": 4.1335145943228895
+  }
+}
